@@ -3,6 +3,7 @@ import { ReactQueryDevtools } from "@tanstack/react-query-devtools";
 import { BrowserRouter, Navigate, Route, Routes } from "react-router-dom";
 import AppLayout from "./ui/AppLayout";
 import HomePage from "./pages/HomePage";
+import SignUp from "./pages/SignUp";
 
 const queryClient = new QueryClient({
     defaultOptions: {
@@ -21,6 +22,7 @@ function App() {
                     <Route element={<AppLayout />}>
                         <Route index element={<Navigate replace to="homepage" />} />
                         <Route path="homepage" element={<HomePage />} />
+                        <Route path="sign-up" element={<SignUp />} />
                     </Route>
                 </Routes>
             </BrowserRouter>

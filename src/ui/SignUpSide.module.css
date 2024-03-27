@@ -1,0 +1,16 @@
+.containerImage {
+    width: 805px;
+    height: 781px;
+}
+
+.containerImageChildren {
+    width: 805px;
+    height: 781px;
+    background-color: #cce3e9;
+    position: relative;
+}
+
+.containerImageChildren img {
+    position: absolute;
+    bottom: 0px;
+}
