@@ -1,0 +1,31 @@
+.productContainer {
+    width: 270px;
+    height: 350px;
+}
+
+.productImage {
+    background-color: #f5f5f5;
+    margin-bottom: 10px;
+}
+
+.productContainer img {
+    width: 270px;
+    height: 250px;
+}
+
+.productDescription {
+    display: flex;
+    flex-direction: column;
+}
+
+.productName {
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.productPrice {
+    color: #db4444;
+    font-size: 16px;
+    font-weight: 600;
+}

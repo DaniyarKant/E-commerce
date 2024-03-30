@@ -18,10 +18,14 @@ function Header() {
                 <div className={styles.logo}>Exclusive</div>
                 <div>
                     <ul className={styles.links}>
-                        <li>Home</li>
+                        <li>
+                            <Link to="/homepage">Home</Link>
+                        </li>
                         <li>Contact</li>
                         <li>About</li>
-                        <li>Sign up</li>
+                        <li>
+                            <Link to="/sign-up">Sign up</Link>
+                        </li>
                     </ul>
                 </div>
                 <div className={styles.navigationChildren}>
